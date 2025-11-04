@@ -1,0 +1,21 @@
+{
+  "name": "tally-qr-verify",
+  "version": "1.0.0",
+  "description": "QR Code generator & verification server for Tally event registration",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "mysql2": "^3.10.2",
+    "qrcode": "^1.5.3",
+    "uuid": "^9.0.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
